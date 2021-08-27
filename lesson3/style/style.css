@@ -9,7 +9,7 @@ body {
 
 button {
   cursor: pointer;
-  background-color: #979797;
+  background-color: #325f4a;
   color: white;
   border: none;
   border-radius: 8%;
@@ -25,7 +25,7 @@ button:hover {
 }
 
 header {
-  background-color: #448064;
+  background-color: #539777;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,6 +35,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   height: 80px;
+  position: relative;
 }
 
 header .logo {
@@ -52,22 +53,19 @@ header .btn-cart {
 }
 
 .cart-open {
-  display: block;
+  position: absolute;
+  right: 200px;
+  top: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border: 2px solid #448064;
-  margin: 5%;
   padding: 2%;
-  width: 250px;
-}
-
-.cart-open h2 {
-  color: #448064;
-  text-align: center;
-  padding-bottom: 10px;
+  background-color: #f9fbfd;
 }
 
 .cart-open .cart-item {
   border: 1px solid black;
-  margin-bottom: 3%;
   padding: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,30 +83,34 @@ header .btn-cart {
 }
 
 .cart-open .cart-item img {
-  width: 100%;
+  width: 130px;
 }
 
 .cart-open .cart-item h3 {
+  font-size: 14px;
   margin-top: 20px;
 }
 
 .cart-open .cart-item p {
+  font-size: 12px;
   margin-top: 10px;
 }
 
 .cart-open .cart-item button {
-  padding: 10px 5px;
+  padding: 10px;
   margin-top: 10px;
-  margin-bottom: 15px;
 }
 
-.cart-open p {
-  margin-top: 30px;
+.cart-open .price {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  font-weight: bold;
 }
 
 .cart-open .deco {
   color: #448064;
-  font-weight: bold;
 }
 
 .products {
