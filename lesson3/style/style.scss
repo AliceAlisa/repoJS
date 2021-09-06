@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+button {
+    cursor: pointer;
+    background-color:  rgb(50, 95, 74);
+    color: white;
+    border: none;
+    border-radius: 8%;
+    padding: 1%;
+}
+img {
+    width: 200px;
+}
+button:hover {
+    background-color: black;
+}
+header {
+    background-color: rgb(83, 151, 119);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    position: relative;
+    .logo {
+    font-size: 24px;
+    color: white;
+    }
+    .btn-cart {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+.cart {
+    display: none;
+}
+
+.cart-open {
+    position: absolute;
+    right: 200px;
+    top: 58px;
+    display: flex;
+    border: 2px solid rgb(68, 128, 100);
+    padding: 2%;
+    background-color: rgb(249, 251, 253);
+
+    & .cart-item {
+        border: 1px solid rgb(0, 0, 0);
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & img {
+            width: 130px;
+        }
+        & h3 {
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        & p {
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        & button {
+            padding: 10px; 
+            margin-top: 10px;
+        }
+    }
+
+    & .price {
+       align-self: center;
+       text-align: center;
+       font-weight: bold;
+    }
+
+    & .deco {
+        color: rgb(68, 128, 100);
+    }   
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+
+    &-item {
+        display: flex;
+        flex-direction: column;
+        
+        border: 2px solid rgb(68, 128, 100);
+        margin: 1%;
+        padding: 1%;
+
+        &-img {
+            width: 200px;
+        }
+
+        & h3 {
+            padding-top: 30px;
+        }
+
+        & p {
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+
+        & button {
+            width: 100px;
+            margin: 0 auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+}
