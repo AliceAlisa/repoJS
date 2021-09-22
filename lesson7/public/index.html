@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/newstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d685574eda.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="app">
+        <header-comp ref="showCart"></header-comp>
+
+        <cart ref="cart"></cart>
+
+        <main>
+            <error ref="error"></error>
+
+            <intro-comp></intro-comp>
+
+            <department-comp></department-comp>
+
+            <products ref="products"></products>
+
+            <advantage-comp></advantage-comp>
+        </main>
+
+        <footer-comp></footer-comp>
+    </div>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+        integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/HeaderComp.js"></script>
+    <script src="js/IntroComp.js"></script>
+    <script src="js/CartComponent.js"></script>
+    <script src="js/DepartmentComp.js"></script>
+    <script src="js/ProductComponent.js"></script>
+    <script src="js/AdvantageComp.js"></script>
+    <script src="js/FooterComp.js"></script>
+    <script src="js/ErrorComp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
