@@ -3,52 +3,28 @@
     "countGoods": 2,
     "contents": [
         {
-            "id_product": 123,
-            "product_name": "Ноутбук",
+            "quantity": 2,
+            "id_product": 15,
+            "product_name": "Second Product",
+            "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+            "price": 3000,
+            "imgPath": "img/15.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 48,
+            "product_name": "First Product",
+            "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
+            "price": 1600,
+            "imgPath": "img/48.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 42,
+            "product_name": "Fifth Product",
+            "description": "Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.",
             "price": 45600,
-            "quantity": 20
-        },
-        {
-            "id_product": 456,
-            "product_name": "Мышка",
-            "price": 1000,
-            "quantity": 12
-        },
-        {
-            "quantity": 6,
-            "id_product": 457,
-            "product_name": "Gamepad",
-            "price": 3000
-        },
-        {
-            "quantity": 20,
-            "id_product": 124,
-            "product_name": "Keyboard",
-            "price": 1600
-        },
-        {
-            "quantity": 1,
-            "id_product": 124,
-            "product_name": "Keyboard",
-            "price": 1600
-        },
-        {
-            "quantity": 1,
-            "id_product": 457,
-            "product_name": "Gamepad",
-            "price": 3000
-        },
-        {
-            "quantity": 1,
-            "id_product": 123,
-            "product_name": "Ноутбук",
-            "price": 45600
-        },
-        {
-            "quantity": 1,
-            "id_product": 456,
-            "product_name": "Мышка",
-            "price": 1000
+            "imgPath": "img/42.png"
         }
     ]
 }
